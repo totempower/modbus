@@ -36,6 +36,7 @@ public class ReadCoilsResponse extends ByteBufModbusResponse {
      * @return the {@link ByteBuf} containing coil status, 8 coils per byte.
      */
     public ByteBuf getCoilStatus() {
+        //ByteBuf coilStatus = super.content();
         return super.content();
     }
 

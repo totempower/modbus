@@ -107,6 +107,7 @@ public interface ServiceRequestHandler {
          * Send a normal response.
          *
          * @param response the service response
+         * @return 
          */
         void sendResponse(Response response);
 

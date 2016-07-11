@@ -19,3 +19,4 @@ release.properties
 *.iws
 *.iml
 
+/bin/
